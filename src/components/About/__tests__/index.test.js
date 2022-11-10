@@ -11,7 +11,10 @@ afterEach(cleanup);
 
 
 describe('About component', () => {
-    //to verify that the component is rendering
+    /*
+    *Base Line test
+    *to verify that the component is rendering
+    */
     it('Renders about component', () => {
         render(<About/>)
     })
