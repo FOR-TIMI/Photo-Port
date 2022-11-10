@@ -29,7 +29,7 @@ const [currentCategory, setCurrentCategory] = useState(categories[0])
         currentCategory={currentCategory}  
       />
       <main>
-          <Gallery/>
+          <Gallery currentCategory={currentCategory}/>
           <About/>
       </main>
     </div>
