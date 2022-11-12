@@ -14,13 +14,13 @@ describe('Gallery is rendering', () => {
     render(<Gallery currentCategory={portrait} />);
   });
 
-  it('renders', () => {
+  it('matches snapshot DOM node structure', () => {
     const { asFragment } = render(<Gallery currentCategory={portrait} />)
     expect(asFragment()).toMatchSnapshot()
   })
 });
 
-it('renders', () => {
+it('Matches text content', () => {
   const { getByTestId } = render(<Gallery currentCategory={portrait} />)
   expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
 })
