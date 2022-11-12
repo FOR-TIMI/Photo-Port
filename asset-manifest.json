@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/FOR-TIMI/Photo-Port.git/static/css/main.8832ea63.css",
-    "main.js": "/FOR-TIMI/Photo-Port.git/static/js/main.bcb36176.js",
-    "static/js/787.137aa76a.chunk.js": "/FOR-TIMI/Photo-Port.git/static/js/787.137aa76a.chunk.js",
+    "main.js": "/FOR-TIMI/Photo-Port.git/static/js/main.70e94ba5.js",
     "static/media/3.jpg": "/FOR-TIMI/Photo-Port.git/static/media/3.dd376ef9a77aa73dbb1b.jpg",
     "static/media/0.jpg": "/FOR-TIMI/Photo-Port.git/static/media/0.aae354cffe126735c6a7.jpg",
     "static/media/1.jpg": "/FOR-TIMI/Photo-Port.git/static/media/1.863e6935e38396aecb5d.jpg",
@@ -11,11 +10,10 @@
     "static/media/2.jpg": "/FOR-TIMI/Photo-Port.git/static/media/2.73361bef8e26b971e197.jpg",
     "index.html": "/FOR-TIMI/Photo-Port.git/index.html",
     "main.8832ea63.css.map": "/FOR-TIMI/Photo-Port.git/static/css/main.8832ea63.css.map",
-    "main.bcb36176.js.map": "/FOR-TIMI/Photo-Port.git/static/js/main.bcb36176.js.map",
-    "787.137aa76a.chunk.js.map": "/FOR-TIMI/Photo-Port.git/static/js/787.137aa76a.chunk.js.map"
+    "main.70e94ba5.js.map": "/FOR-TIMI/Photo-Port.git/static/js/main.70e94ba5.js.map"
   },
   "entrypoints": [
     "static/css/main.8832ea63.css",
-    "static/js/main.bcb36176.js"
+    "static/js/main.70e94ba5.js"
   ]
 }
