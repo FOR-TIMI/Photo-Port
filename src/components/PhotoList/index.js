@@ -106,7 +106,7 @@ const PhotoList = ({ category }) => {
 
   const toggleModal = (image, i) => {
     setCurrentPhoto({...image, index: i});
-    setIsModalOpen(true)
+    setIsModalOpen(!isModalOpen)
   }
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
@@ -127,9 +127,10 @@ const PhotoList = ({ category }) => {
         ))}
        
       </div>
-     {isModalOpen &&  <Modal 
-     setIsModalOpen={setIsModalOpen}
-     currentPhoto={currentPhoto}/>}
+     {isModalOpen &&  (<Modal 
+     closeModal={toggleModal}
+     currentPhoto={currentPhoto}/>
+    )}
     </div>
   );
 };
